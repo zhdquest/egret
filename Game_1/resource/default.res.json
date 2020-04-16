@@ -1,0 +1,65 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,dog_1_png,field_1_jpg,gress_1_png,flower_1_png,down_png,left_png,right_png,up_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/dog_1.png",
+			"type": "image",
+			"name": "dog_1_png"
+		},
+		{
+			"url": "assets/field_1.jpg",
+			"type": "image",
+			"name": "field_1_jpg"
+		},
+		{
+			"url": "assets/gress_1.png",
+			"type": "image",
+			"name": "gress_1_png"
+		},
+		{
+			"url": "assets/flower_1.png",
+			"type": "image",
+			"name": "flower_1_png"
+		},
+		{
+			"name": "down_png",
+			"type": "image",
+			"url": "assets/down.png"
+		},
+		{
+			"name": "left_png",
+			"type": "image",
+			"url": "assets/left.png"
+		},
+		{
+			"name": "right_png",
+			"type": "image",
+			"url": "assets/right.png"
+		},
+		{
+			"name": "up_png",
+			"type": "image",
+			"url": "assets/up.png"
+		}
+	]
+}
