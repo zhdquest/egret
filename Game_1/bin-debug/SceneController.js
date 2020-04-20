@@ -56,32 +56,6 @@ var SceneController = (function () {
         }
         stage.addChild(this.instance.gameScene);
     };
-    /**
-     * 游戏开始 （开始游戏）
-     */
-    SceneController.startGame = function () {
-        //游戏开始了
-        GameData.hasStart = true;
-        this.instance.gameScene.startGame();
-        //定时器开始
-        this.instance.gameScene.startTicker();
-    };
-    SceneController.GameEnd = function () {
-        GameData.hasStart = false;
-        this.instance.gameScene.stopTicker();
-        var stage = this.instance.stageMain;
-        stage.addChild(this.instance.overScene);
-    };
-    SceneController.pauseGame = function () {
-        if (GameData.ispause) {
-            egret.ticker.resume();
-            GameData.ispause = false;
-        }
-        else {
-            egret.ticker.pause();
-            GameData.ispause = true;
-        }
-    };
     return SceneController;
 }());
 __reflect(SceneController.prototype, "SceneController");

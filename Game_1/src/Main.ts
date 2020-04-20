@@ -5,7 +5,7 @@ class Main extends egret.DisplayObjectContainer {
         super();
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
     }
-
+    
     private onAddToStage(event: egret.Event) {
 
         egret.lifecycle.addLifecycleListener((context) => {
@@ -48,9 +48,7 @@ class Main extends egret.DisplayObjectContainer {
         }
     }
 
-    private textfield: egret.TextField;
-
-
+  
     private createGameScene() {
         let container:egret.DisplayObjectContainer = new egret.DisplayObjectContainer();
         this.addChild(container);

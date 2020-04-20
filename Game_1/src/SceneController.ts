@@ -59,37 +59,17 @@ class SceneController {
 		}
 
 		stage.addChild( this.instance.gameScene );
+
 		
 	}
 
-	/**
-	 * 游戏开始 （开始游戏）
-	 */
-	static startGame(){
-		//游戏开始了
-		GameData.hasStart = true;
-		this.instance.gameScene.startGame();
-		//定时器开始
-		this.instance.gameScene.startTicker();
-	}
-
-	
-
+/*
+	private hasStart:boolean;
 	static GameEnd(){
-		GameData.hasStart = false;
-		this.instance.gameScene.stopTicker();
+		this.hasStart = false;
+		//this.instance.gameScene.stopTicker();
 		let stage = this.instance.stageMain;
 		stage.addChild( this.instance.overScene );
 	}
-
-	static pauseGame(){
-		if( GameData.ispause){
-			egret.ticker.resume();
-			GameData.ispause = false;
-		}else{
-			egret.ticker.pause();
-			GameData.ispause = true;
-		}
-	}
-
+*/
 }
