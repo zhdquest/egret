@@ -22,12 +22,12 @@ var StartScene = (function (_super) {
         return result;
     };
     StartScene.prototype.initView = function () {
-        var bg = createBitmapByName("bg_jpg");
+        var bg = createBitmapByName("Game1_bg_jpg");
         this.addChild(bg);
         bg.width = this.stage.stageWidth;
         bg.height = this.stage.stageHeight;
         //开始游戏的按钮
-        var startBtn = createBitmapByName("gress_1_png");
+        var startBtn = createBitmapByName("down_png");
         this.addChild(startBtn);
         startBtn.x = (this.stage.stageWidth - startBtn.width) / 2;
         startBtn.y = (this.stage.stageHeight - startBtn.height) / 2;

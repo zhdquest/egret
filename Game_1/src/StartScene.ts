@@ -12,13 +12,13 @@
     }
 
     private initView(){
-		let bg:egret.Bitmap = createBitmapByName("bg_jpg");
+		let bg:egret.Bitmap = createBitmapByName("Game1_bg_jpg");
 		this.addChild(bg);
 		bg.width = this.stage.stageWidth;
 		bg.height = this.stage.stageHeight;
 
 		//开始游戏的按钮
-		let startBtn:egret.Bitmap = createBitmapByName("gress_1_png");
+		let startBtn:egret.Bitmap = createBitmapByName("down_png");
 		this.addChild(startBtn);
 		startBtn.x = (this.stage.stageWidth - startBtn.width)/2;
 		startBtn.y = (this.stage.stageHeight - startBtn.height)/2;
