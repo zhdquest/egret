@@ -1,0 +1,140 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,buttle_png,buttle_bg_png,crude_png,dg_bg_png,enemy_png,Game_bg_png,ground_png,ladder_png,money_png,money_bg_png,move_bg_png,move_down_png,move_left_png,move_right_png,move_up_png,plane_png,player_png,smooth_png,stone_png,tg_bg_png,tool_bg_png,fire_bg_png,jump_bg_png,ground_plane_png,config_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "buttle_png",
+			"type": "image",
+			"url": "assets/buttle.png"
+		},
+		{
+			"name": "buttle_bg_png",
+			"type": "image",
+			"url": "assets/buttle_bg.png"
+		},
+		{
+			"name": "crude_png",
+			"type": "image",
+			"url": "assets/crude.png"
+		},
+		{
+			"name": "dg_bg_png",
+			"type": "image",
+			"url": "assets/dg_bg.png"
+		},
+		{
+			"name": "enemy_png",
+			"type": "image",
+			"url": "assets/enemy.png"
+		},
+		{
+			"name": "Game_bg_png",
+			"type": "image",
+			"url": "assets/Game_bg.png"
+		},
+		{
+			"name": "ground_png",
+			"type": "image",
+			"url": "assets/ground.png"
+		},
+		{
+			"name": "ladder_png",
+			"type": "image",
+			"url": "assets/ladder.png"
+		},
+		{
+			"name": "money_png",
+			"type": "image",
+			"url": "assets/money.png"
+		},
+		{
+			"name": "money_bg_png",
+			"type": "image",
+			"url": "assets/money_bg.png"
+		},
+		{
+			"name": "move_bg_png",
+			"type": "image",
+			"url": "assets/move_bg.png"
+		},
+		{
+			"name": "move_down_png",
+			"type": "image",
+			"url": "assets/move_down.png"
+		},
+		{
+			"name": "move_left_png",
+			"type": "image",
+			"url": "assets/move_left.png"
+		},
+		{
+			"name": "move_right_png",
+			"type": "image",
+			"url": "assets/move_right.png"
+		},
+		{
+			"name": "move_up_png",
+			"type": "image",
+			"url": "assets/move_up.png"
+		},
+		{
+			"name": "plane_png",
+			"type": "image",
+			"url": "assets/plane.png"
+		},
+		{
+			"name": "player_png",
+			"type": "image",
+			"url": "assets/player.png"
+		},
+		{
+			"name": "smooth_png",
+			"type": "image",
+			"url": "assets/smooth.png"
+		},
+		{
+			"name": "stone_png",
+			"type": "image",
+			"url": "assets/stone.png"
+		},
+		{
+			"name": "tg_bg_png",
+			"type": "image",
+			"url": "assets/tg_bg.png"
+		},
+		{
+			"name": "tool_bg_png",
+			"type": "image",
+			"url": "assets/tool_bg.png"
+		},
+		{
+			"name": "fire_bg_png",
+			"type": "image",
+			"url": "assets/fire_bg.png"
+		},
+		{
+			"name": "jump_bg_png",
+			"type": "image",
+			"url": "assets/jump_bg.png"
+		},
+		{
+			"name": "ground_plane_png",
+			"type": "image",
+			"url": "assets/ground_plane.png"
+		},
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "assets/config.json"
+		}
+	]
+}

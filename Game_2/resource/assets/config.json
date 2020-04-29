@@ -1,0 +1,10 @@
+{
+    "elements":[
+        { "type": "ground", "distance":0,"x":1500, "y": 525 },
+        { "type": "ground" , "distance":1500,"x":2500, "y": 525}
+    ],
+
+     "properties":{
+        "maxMileage":1000
+    }
+}
