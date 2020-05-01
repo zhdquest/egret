@@ -1,0 +1,30 @@
+{
+    "elements":[
+        { "type": "money", "distance": 50, "y": 600 },
+        { "type": "money", "distance": 150, "y": 300 },
+        { "type": "money", "distance": 300, "y": 800 },
+        { "type": "enemy" , "distance": 500, "y": 500},
+        { "type": "money", "distance": 800, "y": 900 },
+        { "type": "enemy" , "distance": 1000, "y": 130},
+        { "type": "money", "distance": 1200, "y": 900 },
+        { "type": "money", "distance": 1300, "y": 700 },
+        { "type": "enemy" , "distance": 1600, "y": 900},
+        { "type": "money", "distance": 1800, "y": 950 },
+        { "type": "money", "distance": 2000, "y": 850 },
+        { "type": "enemy", "distance": 2200, "y": 600 },
+        { "type": "money", "distance": 2600, "y": 760 },
+        { "type": "money", "distance": 2700, "y": 600 },
+        { "type": "enemy", "distance": 3000, "y": 550 }
+    ],
+
+
+
+    
+    "properties":{
+        "speed":4,
+        "gravity":0.5,
+        "jumpSpeed":15,
+        "barrierWidth":500,
+        "maxMileage":5000
+    }
+}

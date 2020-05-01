@@ -1,0 +1,65 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,config_json,start_png,Game_bg_png,ground_png,money_png,enemy_png,ground_640_png,bg_640_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "assets/config.json"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/start.png"
+		},
+		{
+			"name": "Game_bg_png",
+			"type": "image",
+			"url": "assets/Game_bg.png"
+		},
+		{
+			"name": "ground_png",
+			"type": "image",
+			"url": "assets/ground.png"
+		},
+		{
+			"name": "money_png",
+			"type": "image",
+			"url": "assets/money.png"
+		},
+		{
+			"name": "enemy_png",
+			"type": "image",
+			"url": "assets/enemy.png"
+		},
+		{
+			"name": "ground_640_png",
+			"type": "image",
+			"url": "assets/ground_640.png"
+		},
+		{
+			"name": "bg_640_png",
+			"type": "image",
+			"url": "assets/bg_640.png"
+		}
+	]
+}
