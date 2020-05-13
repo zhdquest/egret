@@ -1,0 +1,50 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,bg_640_png,player_png,start_png,ground_640_png,plane1_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "bg_640_png",
+			"type": "image",
+			"url": "assets/bg_640.png"
+		},
+		{
+			"name": "player_png",
+			"type": "image",
+			"url": "assets/player.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/start.png"
+		},
+		{
+			"name": "ground_640_png",
+			"type": "image",
+			"url": "assets/ground_640.png"
+		},
+		{
+			"name": "plane1_png",
+			"type": "image",
+			"url": "assets/plane1.png"
+		}
+	]
+}
