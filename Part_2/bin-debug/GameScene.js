@@ -12,7 +12,7 @@ var GameScene = (function (_super) {
     __extends(GameScene, _super);
     function GameScene() {
         var _this = _super.call(this) || this;
-        _this.time = 1000;
+        _this.time = 500;
         _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.initView, _this);
         _this.touchEnabled = true;
         _this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, _this.onClickView, _this);
@@ -38,7 +38,7 @@ var GameScene = (function (_super) {
         this.timeNum.x = time_tx.width + 50;
         this.timeNum.y = time_tx.y;
         this.addChild(this.timeNum);
-        this.changeTimeCount(1000);
+        this.changeTimeCount(500);
     };
     GameScene.prototype.changeTimeCount = function (cnt) {
         this.timeNum.text = cnt.toString();

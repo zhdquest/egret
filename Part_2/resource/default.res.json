@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,bg_640_png,player_png,start_png,ground_640_png,plane1_png,end_png,re_start_png,upMove_png,ss_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,end_png,re_start_png,ss_png,upMove_png,ground_640_png,plane1_png,player_png,start_png,bg_640_png",
 			"name": "preload"
 		}
 	],
@@ -22,19 +22,24 @@
 			"url": "config/description.json"
 		},
 		{
-			"name": "bg_640_png",
+			"name": "end_png",
 			"type": "image",
-			"url": "assets/bg_640.png"
+			"url": "assets/end.png"
 		},
 		{
-			"name": "player_png",
+			"name": "re_start_png",
 			"type": "image",
-			"url": "assets/player.png"
+			"url": "assets/re_start.png"
 		},
 		{
-			"name": "start_png",
+			"name": "ss_png",
 			"type": "image",
-			"url": "assets/start.png"
+			"url": "assets/ss.png"
+		},
+		{
+			"name": "upMove_png",
+			"type": "image",
+			"url": "assets/upMove.png"
 		},
 		{
 			"name": "ground_640_png",
@@ -47,24 +52,19 @@
 			"url": "assets/plane1.png"
 		},
 		{
-			"name": "end_png",
+			"name": "player_png",
 			"type": "image",
-			"url": "assets/end.png"
+			"url": "assets/player.png"
 		},
 		{
-			"name": "re_start_png",
+			"name": "start_png",
 			"type": "image",
-			"url": "assets/re_start.png"
+			"url": "assets/start.png"
 		},
 		{
-			"name": "upMove_png",
+			"name": "bg_640_png",
 			"type": "image",
-			"url": "assets/upMove.png"
-		},
-		{
-			"name": "ss_png",
-			"type": "image",
-			"url": "assets/ss.png"
+			"url": "assets/bg_640.png"
 		}
 	]
 }

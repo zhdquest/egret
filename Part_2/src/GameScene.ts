@@ -9,7 +9,7 @@ class GameScene extends egret.DisplayObjectContainer{
 
     private pWorld:p2.World;
     private thePlayer:p2.Body;
-	private time:number=1000;
+	private time:number=500;
 	private timeNum:egret.TextField;
     
     private initView(){
@@ -35,7 +35,7 @@ class GameScene extends egret.DisplayObjectContainer{
 		this.timeNum.x = time_tx.width + 50;
 		this.timeNum.y =time_tx.y;
 		this.addChild(this.timeNum);
-		this.changeTimeCount(1000);
+		this.changeTimeCount(500);
 
     }
 
